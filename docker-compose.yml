@@ -22,7 +22,6 @@ services:
       - .:/code
       - ./ollama/ollama:/root/.ollama
     container_name: ollama
-    command: serve
     pull_policy: always
     tty: true
     restart: always
